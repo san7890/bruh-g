@@ -5,7 +5,7 @@ import shutil
 os.chdir('dmsrc')
 
 outfilename = 'rust_g.dm'
-directory = glob.glob('*.dm')
+directory = sorted(glob.glob('*.dm'))
 
 with open(outfilename, 'wb') as outfile:
     for file in directory:

@@ -1,4 +1,3 @@
-
 // rust_g.dm - DM API for rust_g extension library
 //
 // To configure, create a `rust_g.config.dm` and set what you care about from
