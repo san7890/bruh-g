@@ -36,6 +36,8 @@ jobs:
                         with open(file, 'rb') as readfile:
                             shutil.copyfileobj(readfile, outfile)
 
+                print(os.getcwd())
+
         # Save the .dm file to Artifacts
         - uses: actions/upload-artifact@v3
           with:
