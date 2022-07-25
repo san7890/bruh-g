@@ -3,7 +3,7 @@ name: Generate DMSrc
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master , DMSrctest]
   pull_request:
     branches: [ master ]
 
