@@ -15,8 +15,8 @@ jobs:
         - uses: actions/setup-python@v2
         # Generate the actual .dm file.
         - uses: jannekem/run-python-script-action@v1
-            with:
-                script: |
+          with:
+              script: |
                 import glob
                 import os
                 import shutil
