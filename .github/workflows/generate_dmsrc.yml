@@ -3,9 +3,9 @@ name: Generate DMSrc
 
 on:
   push:
-    branches: [ master , DMSrctest]
+    branches: [ master , DMSrctest ]
   pull_request:
-    branches: [ master , DMSrctest]
+    branches: [ master , DMSrctest ]
 
 jobs:
   build:
