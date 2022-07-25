@@ -33,6 +33,7 @@ jobs:
                             continue
                         with open(file, 'rb') as readfile:
                             shutil.copyfileobj(readfile, outfile)
+
         # Save the .dm file to Artifacts
         - uses: actions/upload-artifact@v3
             with:
