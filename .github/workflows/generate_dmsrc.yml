@@ -38,6 +38,6 @@ jobs:
         - uses: actions/upload-artifact@v3
           with:
               name: rust_g.dm
-              path: /output/rust_g.dm
+              path: /dmsrc/rust_g.dm
 
 
